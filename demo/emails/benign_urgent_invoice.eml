@@ -1,0 +1,10 @@
+From: Accounts Payable <accounts@example.org>
+To: analyst@example.org
+Reply-To: accounts@example.org
+Return-Path: <accounts@example.org>
+Message-ID: <invoice-2026-09@example.org>
+Date: Sun, 10 Sep 2026 10:00:00 +0000
+Subject: Urgent invoice review
+Content-Type: text/plain; charset=utf-8
+
+Urgent: please review the attached invoice during today's normal payment run. Contact Accounts Payable through the directory if anything is unclear.

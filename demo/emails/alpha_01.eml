@@ -1,0 +1,13 @@
+Received: from 203.0.113.10 (mailer-node-01.example [203.0.113.10]) by recipient-gateway.example; Fri, 01 Sep 2026 09:00:00 +0000
+Received: from relay.example by recipient-gateway.example; Fri, 01 Sep 2026 08:59:00 +0000
+From: Payroll Desk <payroll-secure.example@mailer.example>
+To: analyst@example.org
+Reply-To: accounts-101@mailbox.example
+Return-Path: <bounce@mailer.example>
+Message-ID: <1720550283.8f73ac@mail-node-01>
+Date: Fri, 01 Sep 2026 09:00:00 +0000
+Subject: Validate your payroll profile
+Authentication-Results: recipient-gateway.example; spf=fail; dmarc=fail
+Content-Type: text/html; charset=utf-8
+
+<html><body><table><tr><td><form action="https://payroll-secure.example/auth/session/abc123"><input type="text" name="user"><input type="password" name="password"><button>Sign in</button></form></td></tr></table></body></html>

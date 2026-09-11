@@ -1,0 +1,11 @@
+Received: from 192.0.2.44 (billing-gw.example [192.0.2.44]) by recipient-gateway.example; Sat, 09 Sep 2026 14:00:00 +0000
+From: Billing Operations <billing@example.org>
+To: analyst@example.org
+Reply-To: finance-desk@example.org
+Return-Path: <billing@example.org>
+Message-ID: <c0ffee00-1234-5678-aaaa-bbbbbbbbbbbb@billing-gw>
+Date: Sat, 09 Sep 2026 14:00:00 +0000
+Subject: Invoice available
+Content-Type: text/html; charset=utf-8
+
+<html><body><h1>Invoice</h1><p>Your invoice is ready for review.</p><a href="https://billing.example/invoice/view/1234">View invoice</a></body></html>

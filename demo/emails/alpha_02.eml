@@ -1,0 +1,12 @@
+Received: from 198.51.100.22 (mailer-node-02.example [198.51.100.22]) by recipient-gateway.example; Mon, 04 Sep 2026 09:20:00 +0000
+From: Office Security <office-auth.example@mailer.example>
+To: analyst@example.org
+Reply-To: accounts-202@mailbox.example
+Return-Path: <bounce@mailer.example>
+Message-ID: <1720551283.9a73bc@mail-node-02>
+Date: Mon, 04 Sep 2026 09:20:00 +0000
+Subject: Verify your account
+Authentication-Results: recipient-gateway.example; spf=fail; dmarc=fail
+Content-Type: text/html; charset=utf-8
+
+<html><body><table><tr><td><form action="https://office-auth.example/auth/session/def456"><input type="text" name="user"><input type="password" name="password"><button>Sign in</button></form></td></tr></table></body></html>
